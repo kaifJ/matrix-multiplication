@@ -37,11 +37,13 @@ while time.time() - start_time < 60:
 plt.plot(memory_usage)
 plt.xlabel("Time (seconds)")
 plt.ylabel("Memory Usage (MB)")
+plt.savefig('memory-usage.png')
 plt.show()
 
 # Plot the CPU usage
 plt.plot(cpu_usage)
 plt.xlabel("Time (seconds)")
 plt.ylabel("CPU Usage (%)")
+plt.savefig('cpu-usage.png')
 plt.show()
 
