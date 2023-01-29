@@ -16,7 +16,20 @@ For windows follow ```https://phoenixnap.com/kb/how-to-install-python-3-windows`
 
 Follow this for mac, linux and windows ```https://numpy.org/install/```
 
+## psutil
 
-# Runnig the file
+```https://blog.finxter.com/how-to-install-psutil-in-python/```
+
+## matplotlib
+```https://matplotlib.org/stable/users/installing/index.html```
+
+# Runnig the matrix multiplication
 
 ```python matrix-multiplication.py```
+
+# Plotting the CDF graph
+```python cdf.py```
+
+# Plotting the memory and CPU graph
+
+```python memory-cpu-usage.py```
