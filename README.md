@@ -1,5 +1,5 @@
 # Matrix multiplication
-Multiply the three matrices: A, B, and C;  i.e., you are expected to find the matrix D where D=(A*B)*C.  A, B, and, C contain random numbers in the range of (0,1) and the dimensions of the matrices are as follows.  A is a matrix with dimension 106  x 103 .  B is a matrix with dimension 103  x 106 . C is a matrix with dimension 106  x 1 .
+Multiply the three matrices: A, B, and C;  i.e., you are expected to find the matrix D where D=(A*B)*C.  A, B, and, C contain random numbers in the range of (0,1) and the dimensions of the matrices are as follows.  A is a matrix with dimension 10^6  x 10^3 .  B is a matrix with dimension 10^3  x 10^6 . C is a matrix with dimension 10^6  x 1 .
 
 # Requirements
 
@@ -23,6 +23,9 @@ Follow this for mac, linux and windows ```https://numpy.org/install/```
 ## matplotlib
 ```https://matplotlib.org/stable/users/installing/index.html```
 
+## scipy
+```https://scipy.org/install/```
+
 # Runnig the matrix multiplication
 
 ```python matrix-multiplication.py```
@@ -33,3 +36,16 @@ Follow this for mac, linux and windows ```https://numpy.org/install/```
 # Plotting the memory and CPU graph
 
 ```python memory-cpu-usage.py```
+
+
+## Experimental using sparse matrix using scipy.sparse
+
+```cd Experiment```
+
+```python test-fullmatrix.py```
+
+## Memory and CPU udage for experimental sparse matrix
+
+```python memory-cpu-usage.py```
+
+
