@@ -11,15 +11,15 @@ memory_usage = []
 cpu_usage = []
 
 # Run the solution
-A = np.random.random((10**6, 10**3))
-B = np.random.random((10**3, 10**6))
+A = np.random.random((10**4, 10**3))
+B = np.random.random((10**3, 10**4))
 
 AB = np.matmul(A, B)
 del A
 del B
 
-C = np.random.random((10**6, 1))
-D = np.matmul(np.matmul(A, B), C)
+C = np.random.random((10**4, 1))
+D = np.matmul(AB, C)
 
 # Measure the memory and CPU usage every 0.5 seconds
 while time.time() - start_time < 60:
